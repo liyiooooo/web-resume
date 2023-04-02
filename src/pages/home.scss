@@ -10,17 +10,32 @@
         left:  0;
 
     }
+    .animate_box{
+       
+        margin: auto;
+        position: absolute ;
+        top: 0;
+        left: 40px;
+        bottom: 0;
+        right: 0;
+    }
+    .home_10pic:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+
     .home_10pic{
         width: 400px;
         height: 250px;
         margin: auto;
         position: absolute ;
         top: 0;
-        left: 0;
-        bottom: 0;
+        left: 60px;
+        bottom: 20px;
         right: 0;
         transform: scale(1,1);
         transition: all .5s ease-out;
+        
         
         .pic10{
             width: 250px;
@@ -29,20 +44,20 @@
             border: solid 15px white;
             // background-size: 100%;
             background-image: url(../images/resumePic.jpg);
-            background-position: 346px -300px ;
+            background-position: 305px -260px ;
             background-size: 190%;
            
         }
+        
         // .pic10:hover{
         //     transform: scale(1.1,1.1);
         // }
         .home_finger{
             width: 33px;
             position: absolute;
-            top: 225px;
-            left: 230px;
+            top: 205px;
+            left: 205px;
             transform:rotate(-30deg);
-            
             
 
         }
@@ -62,16 +77,14 @@
             background-clip: text;
             position: absolute;
             top: 220px;
-            left: 275px;
+            left: 255px;
             animation: Pfli 2s infinite ;
             
         }
        
 
     }
-    .home_10pic:hover{
-        transform: scale(1.1,1.1);
-    }
+    
     
     
     

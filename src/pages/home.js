@@ -16,14 +16,16 @@ function home (){
         <>
         
         <div className="home_bg">
-            <img className="home_bg_l" src={require('../images/bg_4.png')} alt=""></img>
-            <img className="home_bg_r" src={require('../images/bg_3.png')} alt=""></img>
-        
-            <Link className="home_10pic" role="button" to="/resume">
+            <img className="home_bg_l animate__animated animate__fadeInBottomLeft" src={require('../images/bg_4.png')} alt=""></img>
+            <img className="home_bg_r animate__animated animate__fadeInTopRight" src={require('../images/bg_3.png')} alt=""></img>
+            <div className="animate_box animate__animated animate__bounceInDown">
+                <Link className="home_10pic" role="button" to="/carousel">
                 <div className="pic10"></div> 
                 <img className="home_finger" src={require('../images/finger.png')} alt=""></img>
                 <p className="home_click">click me</p>
             </Link>
+            </div>
+            
         
         
             
