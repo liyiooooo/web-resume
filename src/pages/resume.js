@@ -30,7 +30,7 @@ function resume (){
             </div> */}
             
             <div className="re_content row">
-                <div className="col-5">
+                <div className="col-4">
                     <div className="four_dots_line ">
                     {/* <img src={require('../images/dot.png')} alt=""></img> */}
                         <div></div>
@@ -40,7 +40,7 @@ function resume (){
                         <div className="pic10_re"></div> 
                     </div>
                 </div>
-                <div className="col-7">       
+                <div className="col-8">       
                     <Accordion defaultActiveKey={['0']} flush>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>About Me</Accordion.Header>

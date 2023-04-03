@@ -21,7 +21,7 @@
 }
 .re_content{
     display: flex;
-    margin:50px 130px ;
+    margin:60px 130px ;
     padding: 30px;
     .four_dots_line{
         display: flex;
@@ -45,19 +45,19 @@
     .re_10pic{
         width: 400px;
         height: 250px;
-        margin-top: -px;
-        margin-left: 20px;
+        margin-top: 25px;
+        // margin-left: px;
         
         
         .pic10_re{
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             border-radius: 50% 50%;
             border: solid 15px white;
             // background-size: 100%;
             background-image: url(../images/resumePic.jpg);
-            background-position: 305px -260px ;
-            background-size: 190%;
+            background-position: 410px 410px ;
+            background-size: 220%;
            
         }
     }
@@ -76,7 +76,8 @@
  
     .accordion{
         --bs-accordion-bg: #efebdd;
-        margin-top: 10px;
+        margin-top: 8px;
+        margin-left: 25px;
         
         // --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%230c63e4%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e) ;
         
@@ -145,23 +146,7 @@
         }
 
     }
-    .re_nav{
-        display: flex;
-        height: 30px;
-        font-size: 30px;
-      
-        .reNav_re{
-            background: #AEC2E1;
-            font-size: 30px;
-
-        }
-        .reNav_po{
-
-        }
-        .reNav_con{
-
-        }
-    }
+    
   
     
 }

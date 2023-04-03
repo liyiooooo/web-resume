@@ -57,23 +57,96 @@
     scroll-snap-align: center;
   }
   
-  #navigate {
+//   #navigate {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+//     width: 100vw;
+//     height: 50px;
+//     // gap: 1rem;
+//     // margin-top: 1vw;
+//   }
+  
+  .navigate {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 1vw;
+    // text-align: center;
+    // margin: 0 0 0 0;
+    width: 100vw;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    position: absolute;
+    bottom: 0;
+   
+   
+   
+    
+    .re_carousel_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: #AEC2E1;
+        width: 100vw;
+        height: 50px;
+        transition: all .3s ease;
+        
+
+
+    }
+    .port_carousel_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: #B2B1D6;
+        width: 100vw;
+        height: 50px;
+        transition: all .3s ease;
+
+
+    }
+    .con_carousel_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: #E5C2C2;
+        width: 100vw;
+        height: 50px;
+        transition: all .3s ease;
+
+
+    }
+  
+
   }
   
-  #navigate a {
-    text-decoration: none;
-    color: #333;
-    font-size: 1.2rem;
-    background: #ddd;
-    z-index: 1;
-    border-radius: 50%;
-    padding: 0.5rem;
+    $bg:#385772;
+  .re_carousel_btn:hover{
+    // border: solid 3px rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 0 lighten($bg, 15%), 2px 2px 0 lighten($bg, 10%), 3px 3px 0 lighten($bg, 5%);
+    // transform: translate(-3px,-3px);
+
   }
-  
-  #navigate a:hover {
-    background: #aaa;
+  $bg1:#5c506e;
+  .port_carousel_btn:hover{
+    // border: solid 3px rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 0 lighten($bg1, 15%), 2px 2px 0 lighten($bg1, 10%), 3px 3px 0 lighten($bg1, 5%);
+    // transform: translate(-3px,-3px);
+
+  }
+  $bg2:#896666;
+  .con_carousel_btn:hover{
+    // border: solid 3px rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 0 lighten($bg2, 15%), 2px 2px 0 lighten($bg2, 10%), 3px 3px 0 lighten($bg2, 5%);
+    // transform: translate(-3px,-3px);
+
   }

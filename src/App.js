@@ -43,7 +43,7 @@ function App() {
            <Route path="/carousel/portfolio/portfolioWeb" element={<PortfolioWeb/>}/>
          </Route>
          <Route>
-           <Route path="/carousel/portfolioGraphic" element={<PortfolioGraphic/>}/>
+           <Route path="/carousel/portfolio/Graphic" element={<PortfolioGraphic/>}/>
          </Route>
   
      </Routes>

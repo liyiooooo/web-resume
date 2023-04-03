@@ -40,7 +40,8 @@ function carousel (){
                     </li>
                     <li class="scroll-item-outer">
                         <div id="slide-2" class="scroll-item">
-                            {/* <Portfolio /> */}
+                            <Portfolio />
+                            {/* <Resume /> */}
                       
                         </div>
                     </li>
@@ -53,27 +54,17 @@ function carousel (){
                     </ul>
                 </div>
           
-                <nav id="navigate">
+                <nav className="navigate" id="navigate">
                     {/* <Link to={"#slide-1"}/>
                     <Link to={"#slide-2"}/>
                     <Link to={"#slide-3"}/> */}
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
+                    <a className="re_carousel_btn active " href="#slide-1">Resume</a>
+                    <a className="port_carousel_btn " href="#slide-2">Portfolio</a>
+                    <a className="con_carousel_btn " href="#slide-3">Contact</a>
                     
                 </nav>
 
-            {/* <div class="carousel-indicators_10">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div> */}
-
-            {/* <div className="re_nav row">
-                <div className="reNav_re col">Resume</div>
-                <div className="reNav_po col">Portfolio</div>
-                <div className="reNav_con col">Contact</div>
-            </div> */}
+        
   
         {/* </div> */}
           
