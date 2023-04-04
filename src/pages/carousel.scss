@@ -7,6 +7,28 @@
 //     padding: 0;
 //     margin: 0;
 //   }
+.arrow_box{
+    //margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+  
+   
+       
+    .up_arrow{  
+    width: 30px;
+    height: 30px;
+    color: #D6C3B1;
+    opacity:.2;
+    position: fixed ;
+    top: 10;
+    z-index: 1;
+
+}
+.up_arrow:hover{
+    opacity:1;
+}
+}
   
   :root {
     --carousel-width: 100vw;
@@ -53,9 +75,9 @@
     scroll-snap-type: x mandatory;
   }
   
-  .scroll-item-outer {
-    scroll-snap-align: center;
-  }
+  //.scroll-item-outer {
+   // scroll-snap-align: center;
+  //}
   
 //   #navigate {
 //     display: flex;
@@ -68,7 +90,7 @@
 //     // margin-top: 1vw;
 //   }
   
-  .navigate {
+  #navigate {
     display: flex;
     // text-align: center;
     // margin: 0 0 0 0;
@@ -76,8 +98,9 @@
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: 1.5px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    z-index: 0;
    
    
    

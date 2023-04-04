@@ -28,41 +28,52 @@ function portfolio (){
                     <FaArrowCircleUp className="up_arrow"/>
                 </Link>
             </div> */}
+           
             
-            <div className="port_content row">
-                <div className="col-4">
-                    <div className="four_dots_line ">
-                    {/* <img src={require('../images/dot.png')} alt=""></img> */}
-                        <div></div>
-                        <p>My Resume</p>
-                    </div>
-                    <div className="port_pic row">
-                        <div className="efee31_port col">
-                            <div className="port_box" >
-                                <div className="card-title">
-                                    img
+                <div className="port_content ">
+                    <div className="">
+                        <div className="four_dots_line ">
+                        {/* <img src={require('../images/dot.png')} alt=""></img> */}
+                            <div></div>
+                            <p>My Portfolio</p>
+                        </div>
+                        <div className="port_pic row">
+                            <Link to={"/carousel/portfolio/portfolioWeb" } className="card_port col">
+                                
+                                    <div className="card-body">
+                                        <img className="em_pic" src={require('../images/em_logo.png')}  alt=""></img>
+                                    </div>
+                                    <div className="card-title">
+                                        <h4>Web Design </h4>
+                                    </div>
+                              
+                            </Link> 
+                            <Link to={"/carousel/portfolio/portfolioWeb" } className="card_port col">
+                                
+                                    <div className="card-body">
+                                        <img className="grapic_pic" src={require('../images/grapic_logo.png')}  alt=""></img>
+                                    </div>
+                                    <div className="card-title">
+                                        <h4>Graphic Design </h4>
+                                    </div>
+                              
+                            </Link> 
+                            {/*<Link to={"/carousel/portfolio/Graphic"} className="card_port ">
+                                <div className="port_box" >
+                                    <div className="card-title">
+                                        img
+                                    </div>
+                                    <div className="card-name">
+                                        <p>Graphic Design </p>
+                                    </div>
                                 </div>
-                                <div className="card-body">
-                                <Link to={"/carousel/portfolio/portfolioWeb" } >Web Design </Link>
-                                </div>
-                            </div>
-                        </div> 
-                        <div className="graphic_port col">
-                            <div className="port_box" >
-                                <div className="card-title">
-                                    img
-                                </div>
-                                <div className="card-body">
-                                    <Link to={"/carousel/portfolio/Graphic"}>Graphic Design </Link>
-                                </div>
-                            </div>
+                            </Link>*/}
                         </div>
                     </div>
+                        
                 </div>
-                <div className="col-8">       
-                   
-                </div>            
-            </div>
+
+          
 
             
   
