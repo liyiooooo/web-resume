@@ -23,12 +23,22 @@
 
         }
     }
+    .row>*{
+        padding-left: 0;
+        padding-right: 0;
+    }
+   
     .port_pic{ 
         margin: 50px;   
         margin-top: 20px; 
         display: flex;
         justify-content: space-evenly;
-        
+      
+
+        .card_port:hover{
+            transform: scale(1.1,1.1);
+    
+        }
     
         .card_port{
             border: solid px rgb(255, 255, 255);
@@ -38,6 +48,9 @@
             height: 350px;
             margin: 10px 30px;
             text-decoration: none;
+            box-shadow: 4px 4px 11px -3px  #a1978d;
+            transition: all .5s ease-out;
+
             
             
                 .card-body{
@@ -72,16 +85,16 @@
         
         
     }
-    .em_pic:hover,.grapic_pic:hover{
-        transform: scale(1.1,1.1);
+    // .em_pic:hover,.grapic_pic:hover{
+    //     transform: scale(1.1,1.1);
         
-    }
+    // }
     .em_pic{
         width:350px;
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: all .5s ease-out;
+        // transition: all .5s ease-out;
         
        
     }
@@ -90,7 +103,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: all .5s ease-out;
+        // transition: all .5s ease-out;
 
     }
     

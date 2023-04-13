@@ -1,42 +1,37 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./home.scss";
+import "./global.scss";
 
-import React from 'react';
-import {  Link } from 'react-router-dom';
-import './home.scss';
-import './global.scss';
+import "animate.css";
 
-import 'animate.css';
-
-
-function home (){
-   
-    
-   
-    return(
-
-        <>
-        
-        <div className="home_bg">
-            <img className="home_bg_l animate__animated animate__fadeInBottomLeft" src={require('../images/bg_4.png')} alt=""></img>
-            <img className="home_bg_r animate__animated animate__fadeInTopRight" src={require('../images/bg_3.png')} alt=""></img>
-            <div className="animate_box animate__animated animate__bounceInDown">
-                <Link className="home_10pic" role="button" to="/carousel">
-                <div className="pic10"></div> 
-                <img className="home_finger" src={require('../images/finger.png')} alt=""></img>
-                <p className="home_click">click me</p>
-            </Link>
-            </div>
-            
-        
-        
-            
-        </div>   
-           
-            
-
-        
-        </>
-
-
-    )
+function Home() {
+  return (
+    <>
+      <div className="home_bg">
+        <img
+          className="home_bg_l animate__animated animate__fadeInBottomLeft"
+          src={require("../images/bg_4.png")}
+          alt=""
+        ></img>
+        <img
+          className="home_bg_r animate__animated animate__fadeInTopRight"
+          src={require("../images/bg_3.png")}
+          alt=""
+        ></img>
+        <div className="animate_box animate__animated animate__bounceInDown">
+          <Link className="home_10pic" role="button" to="/carousel">
+            <div className="pic10"></div>
+            <img
+              className="home_finger"
+              src={require("../images/finger.png")}
+              alt=""
+            ></img>
+            <p className="home_click">click me</p>
+          </Link>
+        </div>
+      </div>
+    </>
+  );
 }
-export default home
+export default Home;

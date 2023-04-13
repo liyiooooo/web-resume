@@ -12,13 +12,19 @@
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    
+
+    
   
    
        
     .up_arrow{  
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     color: #D6C3B1;
+    border: solid 1.5px #D6C3B1;
+    padding: 3px;
+    border-radius: 50% ;
     opacity:.2;
     position: fixed ;
     top: 10;
@@ -31,7 +37,7 @@
 }
   
   :root {
-    --carousel-width: 100vw;
+    --carousel-width:100vw;
   }
   
  
@@ -149,7 +155,7 @@
 
   }
   
-    $bg:#385772;
+    $bg:#738ca2;
   .re_carousel_btn:hover{
     // border: solid 3px rgb(255, 255, 255) ;
     font-size: 1.6rem;
@@ -157,7 +163,7 @@
     // transform: translate(-3px,-3px);
 
   }
-  $bg1:#5c506e;
+  $bg1:#8875a4;
   .port_carousel_btn:hover{
     // border: solid 3px rgb(255, 255, 255) ;
     font-size: 1.6rem;
@@ -165,7 +171,7 @@
     // transform: translate(-3px,-3px);
 
   }
-  $bg2:#896666;
+  $bg2:#b97c7c;
   .con_carousel_btn:hover{
     // border: solid 3px rgb(255, 255, 255) ;
     font-size: 1.6rem;

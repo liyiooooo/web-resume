@@ -1,0 +1,197 @@
+.main_text_grap{
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+
+    h2{
+    text-align: center;
+   font-weight: 700;
+    padding: 10px;
+    letter-spacing: 1.3px;
+    color: #ffffff;
+    // text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    box-shadow: 4px 4px 11px -3px  #7f6d5c;
+    width: 300px;  
+    background-color: #987D5E;
+    border-radius: 20px  0 20px 0 ;
+    // border: solid 2px #987D5E;
+
+}
+}
+
+.text_part{
+   margin: 12vh auto 9vh;
+   text-align: center;
+}
+.text_part{
+    .web_port_content{
+        padding:20px 0 20px 0;
+        letter-spacing: 2px;
+        margin: auto ;
+        h2{
+        margin-bottom: 15px;
+        color: #987D5E;
+        font-weight: 700;
+        }
+        h6{
+            color: #7A7A7A;
+            letter-spacing: 3px;
+
+        }
+        .x_icon{
+            margin: 35px;
+        }
+        img{
+            //margin-top: 60px;
+            width: 30vw;
+           
+        }
+
+    }
+    .es_tab{
+        border-left: 2.5px solid rgb(212, 195, 186);
+        padding:20px 0 20px 40px;
+        //padding: 10px ;
+        //padding-left: 150px;
+        .all_es{
+         width: 420px;
+         margin: 0 auto;
+         box-shadow: 4px 4px 11px -3px  #a1978d;
+         border-radius: 10px 10px 0 0 ;
+
+        }
+        .MuiTabs-flexContainer{
+            display: flex;
+            justify-content: space-between;
+            
+            width: 100%;
+
+            
+          }
+         
+          .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+            font-weight: 600;
+            font-size: 18px;
+            color: #ffffff;
+            border-radius: 10px 10px 0 0 ;
+            padding: 12px auto;
+            width: 140px;
+            height: 50px;
+          }
+         
+          .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+            
+            color: #ffffff;
+          }
+          .css-1aquho2-MuiTabs-indicator{
+           
+            background-color: #ffffff;
+            height: 4px;
+            //border-radius: 10px 10px 0 0 ;
+          }
+          .css-13xfq8m-MuiTabPanel-root {
+           
+            padding: 16px;
+            height: 280px;
+            background-color: #F4EDE0;
+        }
+        .about_es_content{
+            color: #7A7A7A;
+            text-align: left;
+            font-size: 16px;
+            line-height: 25px;
+            letter-spacing: .5px;
+        }
+    }
+    span{
+        font-weight: 600;
+        font-size: 18px;
+        color: #987D5E;
+    }
+
+
+
+}
+//video
+.es_video{
+    text-align: center;
+    padding: 30px 30px 0 30px;
+    letter-spacing: 2px;
+    .second_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        h2{
+        // margin: 0 10px;
+        color: #987D5E;
+        font-weight: 700;
+        padding: 10px ;
+        
+    }
+    }
+    
+
+    
+}
+.video_mypart {
+    margin-bottom: 100px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video_mypart iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+//bottom
+.bottom_box{
+    padding-bottom: 14vh;
+}
+
+.back_bottom{
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+    cursor: pointer;
+    line-height: 40px;
+    text-decoration: none;
+    color: #c1b3a3;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1.5px solid #c1b3a3;
+    position: relative;
+    transition: all .3s linear;
+}
+.back_bottom > p{
+    position: relative;
+    z-index: 1;
+}
+.back_bottom::before{
+    content: "";
+    width: 0%;
+    height: 100%;
+    display: block;
+    background-color: #c1b3a3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease;
+}
+.back_bottom:hover{
+    color: #fff;
+}
+.back_bottom:hover::before{
+    width: 100%;
+}
+
