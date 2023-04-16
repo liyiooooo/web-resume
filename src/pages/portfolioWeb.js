@@ -1,20 +1,22 @@
 import React from "react";
-
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./portfolioWeb.scss";
 import "./global.scss";
 import "animate.css";
-
 import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
-
 import { FaTimes } from "react-icons/fa";
 import { RxDotFilled } from "react-icons/rx";
 
 function PortfolioWeb() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    document.querySelector(".navBottom").style.display = "none";
+  }, []);
   const [value, setValue] = React.useState("1");
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -22,7 +24,7 @@ function PortfolioWeb() {
   const navigate = useNavigate();
 
   const back = () => {
-    navigate(`/carousel#slide-2`);
+    navigate(`/portfolio`);
   };
 
   return (
@@ -112,7 +114,6 @@ function PortfolioWeb() {
           <div className="second_text">
             <RxDotFilled color="#987D5E" />
             <h2>結業專題發表</h2>
-            
           </div>
 
           <div className="video_mypart">

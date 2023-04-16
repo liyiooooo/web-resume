@@ -2,9 +2,9 @@ import "./App.css";
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import Home from "./pages/home";
-import Carousel from "./pages/carousel";
+
+import Nav from "./layout/nav";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
@@ -17,38 +17,20 @@ function App() {
       <main>
         {/* <Router> */}
         <BrowserRouter>
+          <Nav />
           <Routes>
-            <Route>
-              <Route path="/" element={<Home />} />
-            </Route>
-            <Route>
-              <Route>
-                <Route exact path="/carousel" element={<Carousel />}>
-                  <Route path="/carousel#slide-1" element={<Resume />} />
-                  <Route path="/carousel#slide-3" element={<Contact />} />
-                  <Route path="/carousel#slide-2" element={<Portfolio />} />
-                </Route>
-              </Route>
-              {/* <Route>
-                <Route path="/carousel#slide-1" element={<Resume />} />
-              </Route>
-              <Route>
-                <Route path="/carousel#slide-3" element={<Contact />} />
-              </Route>
-              <Route>
-                <Route path="/carousel#slide-2" element={<Portfolio />} />
-              </Route> */}
-            </Route>
+            <Route path="/" element={<Home />} />
 
-            <Route>
-              <Route path="/carousel/portfolioWeb" element={<PortfolioWeb />} />
-            </Route>
-            <Route>
-              <Route
-                path="/carousel/portfolioGraphic"
-                element={<PortfolioGraphic />}
-              />
-            </Route>
+            <Route path="/resume" element={<Resume />} />
+
+            <Route path="/contact" element={<Contact />} />
+
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/portfolio/portfolioWeb" element={<PortfolioWeb />} />
+            <Route
+              path="/portfolio/portfolioGraphic"
+              element={<PortfolioGraphic />}
+            />
           </Routes>
         </BrowserRouter>
         {/* </Router> */}

@@ -1,16 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import "./resume.scss";
 import "./global.scss";
 import "animate.css";
-// import Accordion from './Accordion/Accordion';
-// import Accordion from 'react-bootstrap/Accordion';
 import { Accordion } from "react-bootstrap";
-import Carousel from "react-bootstrap/Carousel";
-
-import { FaArrowCircleUp, FaCaretRight } from "react-icons/fa";
+import { FaCaretRight } from "react-icons/fa";
 
 function Resume() {
+  useEffect(() => {
+    document.querySelector(".navBottom").style.display = "block";
+  }, []);
   return (
     <>
       {/* <div className="all_bg"> */}
@@ -21,7 +21,7 @@ function Resume() {
             </div> */}
 
       <div className="re_content row">
-        <div className="col-4">
+        <div className="col-4 ">
           <div className="four_dots_line ">
             {/* <img src={require('../images/dot.png')} alt=""></img> */}
             <div></div>
@@ -31,7 +31,7 @@ function Resume() {
             <div className="pic10_re"></div>
           </div>
         </div>
-        <div className="col-8">
+        <div className="col-8 ">
           <Accordion defaultActiveKey={["0"]} flush>
             <Accordion.Item eventKey="0">
               <Accordion.Header>About Me</Accordion.Header>

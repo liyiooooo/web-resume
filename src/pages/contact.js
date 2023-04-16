@@ -3,13 +3,16 @@ import React from "react";
 import "./contact.scss";
 import "./global.scss";
 import "animate.css";
-
+import { useEffect } from "react";
 import { ImGithub, ImInstagram } from "react-icons/im";
 import { FaFacebookSquare } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 
 function Contact() {
+  useEffect(() => {
+    document.querySelector(".navBottom").style.display = "block";
+  }, []);
   const ins = () => {
     window.open("https://www.instagram.com/liyi00000/");
   };

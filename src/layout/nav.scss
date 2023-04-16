@@ -1,0 +1,121 @@
+
+// * {
+//     box-sizing: border-box;
+//   }
+  
+//   body {
+//     padding: 0;
+//     margin: 0;
+//   }
+.arrow_box{
+    //margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+
+    
+  
+   
+       
+    .up_arrow{  
+    width: 35px;
+    height: 35px;
+    color: #D6C3B1;
+    border: solid 1.5px #D6C3B1;
+    padding: 3px;
+    border-radius: 50% ;
+    opacity:.2;
+    position: fixed ;
+    top: 10;
+    z-index: 1;
+
+}
+.up_arrow:hover{
+    opacity:1;
+}
+}
+ 
+  #navigate {
+    display: flex;
+    // text-align: center;
+    // margin: 0 0 0 0;
+    width: 100vw;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+   
+   
+   
+    
+    .re_carousel_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: #AEC2E1;
+        width: 100vw;
+        height: 50px;
+        transition: all .3s ease;
+        
+
+
+    }
+    .port_carousel_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: #B2B1D6;
+        width: 100vw;
+        height: 50px;
+        transition: all .3s ease;
+
+
+    }
+    .con_carousel_btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: #E5C2C2;
+        width: 100vw;
+        height: 50px;
+        transition: all .3s ease;
+
+
+    }
+  
+
+  }
+  
+    $bg:#738ca2;
+  .re_carousel_btn:hover{
+    // border: solid 3px rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 0 lighten($bg, 15%), 2px 2px 0 lighten($bg, 10%), 3px 3px 0 lighten($bg, 5%);
+    // transform: translate(-3px,-3px);
+
+  }
+  $bg1:#8875a4;
+  .port_carousel_btn:hover{
+    // border: solid 3px rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 0 lighten($bg1, 15%), 2px 2px 0 lighten($bg1, 10%), 3px 3px 0 lighten($bg1, 5%);
+    // transform: translate(-3px,-3px);
+
+  }
+  $bg2:#b97c7c;
+  .con_carousel_btn:hover{
+    // border: solid 3px rgb(255, 255, 255) ;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 0 lighten($bg2, 15%), 2px 2px 0 lighten($bg2, 10%), 3px 3px 0 lighten($bg2, 5%);
+    // transform: translate(-3px,-3px);
+
+  }

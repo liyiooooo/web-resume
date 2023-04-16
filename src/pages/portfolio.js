@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import "./portfolio.scss";
 import "./global.scss";
 import "animate.css";
-// import Accordion from './Accordion/Accordion';
-// import Accordion from 'react-bootstrap/Accordion';
-
-// import { FaArrowCircleUp,FaCaretRight } from "react-icons/fa";
-// import Label from '@douyinfe/semi-ui/lib/es/form/label';
 
 function Portfolio() {
+  useEffect(() => {
+    document.querySelector(".navBottom").style.display = "block";
+  }, []);
   return (
     <>
       {/* <div className="all_bg"> */}
@@ -27,7 +26,7 @@ function Portfolio() {
             <p>My Portfolio</p>
           </div>
           <div className="port_pic row">
-            <Link to={"/carousel/portfolioWeb"} className="card_port col">
+            <Link to={"/portfolio/portfolioWeb"} className="card_port col">
               <div className="card-body">
                 <img
                   className="em_pic"
@@ -39,7 +38,7 @@ function Portfolio() {
                 <h4>Web Design </h4>
               </div>
             </Link>
-            <Link to={"/carousel/portfolioGraphic"} className="card_port col">
+            <Link to={"/portfolio/portfolioGraphic"} className="card_port col">
               <div className="card-body">
                 <img
                   className="grapic_pic"

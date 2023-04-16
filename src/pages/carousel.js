@@ -55,9 +55,9 @@ function carousel() {
         <a className="port_carousel_btn " href="#slide-2">
           Portfolio
         </a>
-        <a className="con_carousel_btn " href="#slide-3">
+        <Link className="con_carousel_btn " href="#slide-3">
           Contact
-        </a>
+        </Link>
       </nav>
 
       {/* </div> */}

@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import "./home.scss";
 import "./global.scss";
-
 import "animate.css";
 
 function Home() {
+  useEffect(() => {
+    document.querySelector(".navBottom").style.display = "none";
+  }, []);
   return (
     <>
       <div className="home_bg">
@@ -20,7 +23,7 @@ function Home() {
           alt=""
         ></img>
         <div className="animate_box animate__animated animate__bounceInDown">
-          <Link className="home_10pic" role="button" to="/carousel">
+          <Link className="home_10pic" role="button" to="/resume">
             <div className="pic10"></div>
             <img
               className="home_finger"
