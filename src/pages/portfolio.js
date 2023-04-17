@@ -26,7 +26,7 @@ function Portfolio() {
               className="img-fluid"
               alt=""
             ></img>
-            <p>My Portfolio</p>
+            <h6>My Portfolio</h6>
           </div>
           <div className="port_pic row">
             <Link to={"/portfolio/portfolioWeb"} className="card_port col">

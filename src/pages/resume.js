@@ -14,7 +14,7 @@ function Resume() {
   return (
     <>
       <div className="re_content row animate__animated animate__fadeIn">
-        <div className="col">
+        <div className="col-lg-4 col-md-12">
           <div className="four_dots_line ">
             <img
               src={require("../images/dot.png")}
@@ -28,7 +28,7 @@ function Resume() {
             <div className="pic10_re"></div>
           </div>
         </div>
-        <div className="col">
+        <div className="col-lg-8 col-md-12">
           <Accordion defaultActiveKey={["0"]} flush>
             <Accordion.Item eventKey="0">
               <Accordion.Header>About Me</Accordion.Header>

@@ -7,15 +7,13 @@
 //     padding: 0;
 //     margin: 0;
 //   }
-.navBottom{
-  position: fixed;
-  z-index: 999;
-}
+
 .arrow_box{
-    //margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     padding-top: 15px;
+ 
     
 
     
@@ -39,8 +37,14 @@
     opacity:1;
 }
 }
- 
+@media screen and (max-width:1000px){
+  .arrow_box{
+    display: flex;
+   justify-content: center;
+  }
+}
   #navigate {
+    
     display: flex;
     // text-align: center;
     // margin: 0 0 0 0;
@@ -50,6 +54,7 @@
     letter-spacing: 1.5px;
     position: fixed;
     bottom: 0;
+    z-index: 999;
     
    
    

@@ -34,7 +34,7 @@ function Contact() {
               alt=""
             ></img>
             {/* <div></div> */}
-            <p>Contact Me</p>
+            <h6>Contact Me</h6>
           </div>
           <div className="con_pic row">
             <div className="con_10pic col-5">

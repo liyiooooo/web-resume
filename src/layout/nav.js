@@ -1,5 +1,5 @@
 import React from "react";
-// import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 // import Carousel from 'react-bootstrap/Carousel';
 import "../pages/global.scss";
@@ -21,9 +21,8 @@ function carousel() {
             <AiFillHome className="up_arrow" />
           </Link>
         </div>
-        {/* <div>
-          <Outlet />
-        </div> */}
+        
+        <div></div>
 
         <nav className="navigate" id="navigate">
           <Link className="re_carousel_btn " to="/resume">

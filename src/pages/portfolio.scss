@@ -15,7 +15,7 @@
 
             // background: url(../images/dot.png) no-repeat 100%;
         }
-        p{
+        h6{
             font-size: 35px;
             font-weight: 800;
             letter-spacing: 1.2px;
@@ -46,6 +46,7 @@
             border: solid px rgb(255, 255, 255);
             border-radius: 10px;
             box-shadow: #AF9981;
+            min-width:400px;
             width: 400px;
             height: 350px;
             margin: 10px 30px;
@@ -115,4 +116,35 @@
     
   
     
+}
+@media screen and (max-width:769px){
+    .port_content{
+        margin: 65px auto;
+        padding: 10px;
+        .four_dots_line{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            h6{
+                font-size: 30px;
+            }
+        }
+        .port_pic{ 
+            .card_port{
+                    margin: 30px 5px;
+                   
+                }
+        }
+        
+    }
+    
+    
+    .row>* {
+        margin-top: 50px;
+        padding-right: 13px;
+   
+    }
 }
