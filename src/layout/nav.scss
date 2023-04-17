@@ -7,6 +7,10 @@
 //     padding: 0;
 //     margin: 0;
 //   }
+.navBottom{
+  position: fixed;
+  z-index: 999;
+}
 .arrow_box{
     //margin: auto;
     display: flex;
@@ -28,7 +32,7 @@
     opacity:.2;
     position: fixed ;
     top: 10;
-    z-index: 1;
+    
 
 }
 .up_arrow:hover{
@@ -46,8 +50,7 @@
     letter-spacing: 1.5px;
     position: fixed;
     bottom: 0;
-    z-index: 0;
-   
+    
    
    
     

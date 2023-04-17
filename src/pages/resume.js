@@ -13,25 +13,22 @@ function Resume() {
   }, []);
   return (
     <>
-      {/* <div className="all_bg"> */}
-      {/* <div>
-                <Link to={"/"} className="arrow_box" role="button">
-                    <FaArrowCircleUp className="up_arrow"/>
-                </Link>
-            </div> */}
-
-      <div className="re_content row">
-        <div className="col-4 ">
+      <div className="re_content row animate__animated animate__fadeIn">
+        <div className="col">
           <div className="four_dots_line ">
-            {/* <img src={require('../images/dot.png')} alt=""></img> */}
-            <div></div>
-            <p>My Resume</p>
+            <img
+              src={require("../images/dot.png")}
+              className="img-fluid"
+              alt=""
+            ></img>
+            {/* <div className="img-fluid"></div> */}
+            <h6>My Resume</h6>
           </div>
           <div className="re_10pic">
             <div className="pic10_re"></div>
           </div>
         </div>
-        <div className="col-8 ">
+        <div className="col">
           <Accordion defaultActiveKey={["0"]} flush>
             <Accordion.Item eventKey="0">
               <Accordion.Header>About Me</Accordion.Header>
@@ -160,14 +157,6 @@ function Resume() {
           </Accordion>
         </div>
       </div>
-
-      {/* <div className="re_nav row">
-                <div className="reNav_re col">Resume</div>
-                <div className="reNav_po col">Portfolio</div>
-                <div className="reNav_con col">Contact</div>
-            </div> */}
-
-      {/* </div> */}
     </>
   );
 }

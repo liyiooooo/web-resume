@@ -25,12 +25,16 @@ function Contact() {
 
   return (
     <>
-      <div className="contact_content ">
+      <div className="contact_content animate__animated animate__fadeIn">
         <div className="">
           <div className="four_dots_line ">
-            {/* <img src={require('../images/dot.png')} alt=""></img> */}
-            <div></div>
-            <p>My Portfolio</p>
+          <img
+              src={require("../images/dot.png")}
+              className="img-fluid"
+              alt=""
+            ></img>
+            {/* <div></div> */}
+            <p>Contact Me</p>
           </div>
           <div className="con_pic row">
             <div className="con_10pic col-5">

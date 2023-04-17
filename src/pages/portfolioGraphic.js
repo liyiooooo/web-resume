@@ -18,7 +18,7 @@ function PortfolioGraphic() {
 
   return (
     <>
-      <div className="container">
+      <div className="container animate__animated animate__fadeIn">
         <div className="main_text_grap">
           <h2>Graphic Design</h2>
         </div>

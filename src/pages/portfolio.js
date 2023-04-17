@@ -18,11 +18,14 @@ function Portfolio() {
                 </Link>
             </div> */}
 
-      <div className="port_content ">
+      <div className="port_content animate__animated animate__fadeIn">
         <div className="">
           <div className="four_dots_line ">
-            {/* <img src={require('../images/dot.png')} alt=""></img> */}
-            <div></div>
+            <img
+              src={require("../images/dot.png")}
+              className="img-fluid"
+              alt=""
+            ></img>
             <p>My Portfolio</p>
           </div>
           <div className="port_pic row">
