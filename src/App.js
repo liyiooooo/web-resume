@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Router } from "react-router-dom";
 import Home from "./pages/home";
 
 import Nav from "./layout/nav";
@@ -15,25 +15,35 @@ function App() {
   return (
     <>
       <main>
-        {/* <Router> */}
         <BrowserRouter>
           <Nav />
           <Routes>
-            <Route path="/" element={<Home />} />
-
-            <Route path="/resume" element={<Resume />} />
-
-            <Route path="/contact" element={<Contact />} />
-
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/portfolio/portfolioWeb" element={<PortfolioWeb />} />
-            <Route
-              path="/portfolio/portfolioGraphic"
-              element={<PortfolioGraphic />}
-            />
+            <Route>
+              <Route path="/resume" element={<Resume />} />
+            </Route>
+            <Route>
+              <Route path="/portfolio" element={<Portfolio />} />
+            </Route>
+            <Route>
+              <Route path="/contact" element={<Contact />} />
+            </Route>
+            <Route>
+              <Route
+                path="/portfolio/portfolioWeb"
+                element={<PortfolioWeb />}
+              />
+            </Route>
+            <Route>
+              <Route
+                path="/portfolio/portfolioGraphic"
+                element={<PortfolioGraphic />}
+              />
+            </Route>
+            <Route>
+              <Route path="/web-resume" element={<Home />} />
+            </Route>
           </Routes>
         </BrowserRouter>
-        {/* </Router> */}
       </main>
     </>
   );
