@@ -1,4 +1,4 @@
-.main_text_grap{
+.main_text{
     margin-top: 12vh;
     display: flex;
     justify-content: center;
@@ -288,5 +288,55 @@
     
     
     
+    }
+}
+@media screen and (max-width:400px){
+    .main_text{
+        margin-top: 8vh;
+    }
+    .text_part{
+        margin: 5vh auto 4vh;
+        .es_tab{
+            border-left: none;
+            // border-top: 2.5px solid rgb(212, 195, 186);
+            padding:10px 0;
+            
+            .all_es{
+             width: 360px
+            }
+            .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+            font-weight: 600;
+            font-size: 18px;
+            color: #ffffff;
+            border-radius: 10px 10px 0 0 ;
+            padding: 12px auto;
+            width: 120px;
+            height: 50px;
+            }
+             
+           
+            .about_es_content{
+                color: #7A7A7A;
+                text-align: left;
+                font-size: 16px;
+                line-height: 25px;
+                letter-spacing: .5px;
+            }
+        }
+        span{
+            font-weight: 600;
+            font-size: 18px;
+            color: #987D5E;
+        }
+    
+    
+    
+    }
+    .video_mypart {
+        margin-bottom: 70px;
+       
+    }
+    .bottom_box{
+        padding-bottom: 6vh;
     }
 }

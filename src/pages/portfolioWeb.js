@@ -114,6 +114,7 @@ function PortfolioWeb() {
           <div className="second_text">
             <RxDotFilled color="#987D5E" />
             <h2>結業專題發表</h2>
+            <RxDotFilled color="#987D5E" />
           </div>
 
           <div className="video_mypart">

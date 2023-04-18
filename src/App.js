@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes, Router } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Navbar from "./component/navbar";
 
@@ -19,6 +19,9 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
+            <Route>
+              <Route path="/web-resume" element={<Home />} />
+            </Route>
             <Route>
               <Route path="/resume" element={<Resume />} />
             </Route>
@@ -39,9 +42,6 @@ function App() {
                 path="/portfolio/portfolioGraphic"
                 element={<PortfolioGraphic />}
               />
-            </Route>
-            <Route>
-              <Route path="/web-resume" element={<Home />} />
             </Route>
           </Routes>
         </BrowserRouter>

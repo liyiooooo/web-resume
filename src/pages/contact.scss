@@ -38,6 +38,7 @@
        
          .con_10pic{
             width: 300px;
+            height: 300px;
             display: flex;
             //align-items: center;
             justify-content: center;
@@ -45,7 +46,7 @@
             //padding-right: 90px;
             
             .pic10_con{
-                min-width: 300px;
+                width: 300px;
                 height: 300px;
                 border-radius: 50% 50%;
                 border: solid 15px white;
@@ -166,6 +167,82 @@
             h5{
                 color: #878787;
                 margin-bottom: 10px;
+
+            }
+            .media_link{
+                .media_icon{
+                    margin-right: 10px;
+                }
+            }
+            
+            
+        }
+    }
+        }
+        
+    .row{
+        
+        flex-wrap: wrap;
+   
+    }
+    
+    
+    
+}
+@media screen and (max-width:400px){
+    .contact_content{
+        .four_dots_line{
+            img{
+                width: 16px;
+                height: 16px;
+            }
+            h6{
+                font-size: 26px;
+            }
+        }
+        .con_pic{ 
+            margin: 23px 1px;
+            flex-wrap: wrap;
+            justify-content: center;
+            //width: 250px;
+            .con_10pic{
+                width: 250px;
+                height: 250px;
+                .pic10_con{
+                    width: 250px;
+                    height: 250px;
+                    background-position: 335px 335px ;
+                }
+            }
+           .con_content{
+            margin:50px auto ;
+            padding:0 auto ;
+            letter-spacing: 2px;
+            text-align: center;
+            background-image: none;
+            h2{
+                margin-bottom: 15px ;
+                color: #987D5E;
+                font-weight: 700;
+                letter-spacing: 5px;
+                display: flex;
+                justify-content: center;
+                h5{
+                 color: #b3a08b;
+                 font-weight: 500;
+                 letter-spacing: 2px;
+                 padding-top: 9px;
+                }
+               
+            }
+        
+            h5{
+                color: #878787;
+                margin-bottom: 13px;
+               
+                font-size: 15px;
+                letter-spacing: 1px;
+
 
             }
             .media_link{

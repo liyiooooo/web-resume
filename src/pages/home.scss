@@ -99,5 +99,52 @@
         right: 0;
     }
 }
+@media screen and (max-width:400px){
+    .home_bg{
+        .animate_box{
+       
+            position: absolute ;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+        .home_10pic{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        position: absolute ;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;  
+        .pic10{
+            width: 200px;
+            height: 200px;
+            background-position: 235px 225px ;
+           
+        }
+        
+        .home_finger{
+            width: 25px;
+            position: absolute;
+            top: 170px;
+            left: 150px;
+        }
+        .home_click{
+            width: 100px;
+            text-align: left;
+            font-size: 16px;
+            position: absolute;
+            top: 185px;
+            left: 185px;
+           
+            
+        }
+       
 
+    }
+    }
+    
+}
     

@@ -48,7 +48,7 @@
             border: solid px rgb(255, 255, 255);
             border-radius: 10px;
             box-shadow: #AF9981;
-            min-width:400px;
+            min-width:350px;
             max-width: 400px;
             height: 350px;
             margin: 10px 30px;
@@ -154,4 +154,18 @@
    
     }
    
+}
+@media screen and (max-width:400px){
+    .port_content{
+        .four_dots_line{
+            img{
+                width: 16px;
+                height: 16px;
+            }
+            h6{
+                font-size: 26px;
+            }
+        }       
+    }
+    
 }

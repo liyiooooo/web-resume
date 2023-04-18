@@ -34,15 +34,17 @@ function Resume() {
             <Accordion.Item eventKey="0">
               <Accordion.Header>About Me</Accordion.Header>
               <Accordion.Body>
-                喜歡探索新事物並持續保持熱情
-                <br />
-                對於平面圖像及排版有高度敏銳及興趣
-                <br />
-                在工作中發現自己的不足，想要努力找尋個人目標，
-                <br />
-                進而踏入ui/ux設計這塊領域。發現到設計不只是設計出一個東西，
-                <br />
-                而是一種人與人之間的互動，設計只是搭起關係的橋樑。
+                <div className="re_about_content">
+                  喜歡探索新事物並持續保持熱情
+                  <br />
+                  對於平面圖像及排版有高度敏銳及興趣
+                  <br />
+                  在工作中發現自己的不足，想要努力找尋個人目標，
+                  <br />
+                  進而踏入ui/ux設計這塊領域。發現到設計不只是設計出一個東西，
+                  <br />
+                  而是一種人與人之間的互動，設計只是搭起關係的橋樑。
+                </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
@@ -95,7 +97,7 @@ function Resume() {
                   </div>
                   <div>
                     <h6>2018/6~2018/9</h6>
-                    <span>劍橋幼兒園</span>&nbsp; 行政美編
+                    <span>劍橋幼兒園</span>&nbsp;行政美編
                     <br />
                     <FaCaretRight size={13} />
                     園所宣導文宣設計
@@ -141,7 +143,7 @@ function Resume() {
                     <br />
                   </div>
                   <div className="web_dev">
-                    <br />
+                    <br className="noneBr" />
                     <FaCaretRight size={13} />
                     React
                     <br />

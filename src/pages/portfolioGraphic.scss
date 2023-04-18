@@ -1,4 +1,4 @@
-.main_text{
+.main_text_grap{
     margin-top: 12vh;
     display: flex;
 
@@ -6,7 +6,7 @@
 
     h2{
     text-align: center;
-   font-weight: 700;
+    font-weight: 700;
     padding: 10px;
     letter-spacing: 1.3px;
     color: #ffffff;
@@ -25,6 +25,8 @@
     margin-bottom: 5vh;
     text-align: left;
     .title_box{
+        display: flex;
+        justify-content: space-between;
         align-items: center;
         padding: 3px 15px;
         margin: 60px 0;
@@ -41,10 +43,14 @@
     }
     .cambridge_part{
         display: flex;
-        .cambridge_content{
-            //width: 300px;
-            max-width: 100%;
+        div{
+            margin-bottom: 20px;
+            .cambridge_content{
+                //width: 300px;
+                max-width: 100%;
+            }
         }
+        
     }
 
  }
@@ -93,3 +99,45 @@
 .back_bottom:hover::before{
     width: 100%;
 }
+
+@media screen and (max-width:400px){
+   .main_text_grap{
+    margin-top: 8vh;
+    margin-bottom: 3vh;
+   }
+   .text_part_grap{
+    margin: 0 auto ;
+    margin-bottom: 5vh;
+    justify-content: center;
+    div{
+        // margin: 20px 0; 
+        .title_box{
+            justify-content: center;
+            padding: 3px 15px;
+            margin-top: -35px;
+            margin-bottom:15px;
+            .three_dots{
+                display: none;
+            }
+        }
+        .cambridge_part{
+            div{
+                margin-bottom: 0;
+                margin: 15px auto;
+                display: flex;
+                justify-content: center;
+                .cambridge_content{
+                    
+                    width: 300px;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    
+    }
+   .bottom_box{
+        padding-bottom: 6vh;
+    }
+}
+

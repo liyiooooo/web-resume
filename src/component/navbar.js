@@ -1,17 +1,11 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
-// import Carousel from 'react-bootstrap/Carousel';
 import "../pages/global.scss";
 import "./navbar.scss";
 import "animate.css";
-//import Resume from "../pages/resume";
-//import Portfolio from "../pages/portfolio";
-//import Contact from "../pages/contact";
-// import { FaArrowCircleUp } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
 
-function carousel() {
+function Navbar() {
   return (
     <>
       {/* <div className="all_bg"> */}
@@ -39,4 +33,4 @@ function carousel() {
     </>
   );
 }
-export default carousel;
+export default Navbar;
