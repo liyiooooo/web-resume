@@ -18,7 +18,7 @@ function Contact() {
     window.open("https://www.instagram.com/liyi00000/");
   };
   const git = () => {
-    window.open("https://github.com/marsting/ting");
+    window.open("https://github.com/liyiooooo/web-resume");
   };
   const face = () => {
     window.open("https://www.facebook.com/profile.php?id=100002722837916");
