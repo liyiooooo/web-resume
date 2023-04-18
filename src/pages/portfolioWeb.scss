@@ -302,15 +302,23 @@
             padding:10px 0;
             
             .all_es{
-             width: 360px
+             width: 330px
             }
+            .MuiTabs-flexContainer{
+                display: flex;
+                justify-content: space-between;
+                
+                width: 100%;
+    
+                
+              }
             .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
             font-weight: 600;
             font-size: 18px;
             color: #ffffff;
             border-radius: 10px 10px 0 0 ;
             padding: 12px auto;
-            width: 120px;
+            width: 110px;
             height: 50px;
             }
              
