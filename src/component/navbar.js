@@ -17,7 +17,7 @@ function carousel() {
       {/* <div className="all_bg"> */}
       <div className="navBottom">
         <div>
-          <Link to={"/"} className="arrow_box" role="button">
+          <Link to={"/web-resume"} className="arrow_box" role="button">
             <AiFillHome className="up_arrow" />
           </Link>
         </div>
