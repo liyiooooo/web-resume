@@ -8,6 +8,7 @@ import { RxDotFilled } from "react-icons/rx";
 
 function PortfolioGraphic() {
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     document.querySelector(".navBottom").style.display = "none";
   }, []);
   const navigate = useNavigate();

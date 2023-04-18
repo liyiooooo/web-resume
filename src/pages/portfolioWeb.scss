@@ -28,6 +28,7 @@
         padding:20px 0 20px 0;
         letter-spacing: 2px;
         margin: auto ;
+       
         h2{
         margin-bottom: 15px;
         color: #987D5E;
@@ -38,12 +39,14 @@
             letter-spacing: 3px;
 
         }
+        
         .x_icon{
             margin: 35px;
         }
         img{
             //margin-top: 60px;
             width: 30vw;
+            min-width: 300px;
            
         }
 
@@ -195,3 +198,95 @@
     width: 100%;
 }
 
+@media screen and (max-width:1000px){
+    .text_part{
+        .web_port_content{
+            padding:20px 0 20px 0;
+            letter-spacing: 2px;
+            margin: auto ;
+            h2{
+            margin-bottom: 15px;
+            color: #987D5E;
+            font-weight: 700;
+            }
+            h6{
+                color: #7A7A7A;
+                letter-spacing: 3px;
+    
+            }
+            
+            .x_icon{
+                margin: 35px;
+            }
+            img{
+                //margin-top: 60px;
+                width: 30vw;
+               
+            }
+    
+        }
+        .es_tab{
+            border-left: none;
+            // border-top: 2.5px solid rgb(212, 195, 186);
+            padding:20px 0;
+            
+            .all_es{
+             width: 420px;
+             margin: 0 auto;
+             box-shadow: 4px 4px 11px -3px  #a1978d;
+             border-radius: 10px 10px 0 0 ;
+    
+            }
+            .MuiTabs-flexContainer{
+                display: flex;
+                justify-content: space-between;
+                
+                width: 100%;
+    
+                
+              }
+             
+              .css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+                font-weight: 600;
+                font-size: 18px;
+                color: #ffffff;
+                border-radius: 10px 10px 0 0 ;
+                padding: 12px auto;
+                width: 140px;
+                height: 50px;
+              }
+             
+              .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+                
+                color: #ffffff;
+              }
+              .css-1aquho2-MuiTabs-indicator{
+               
+                background-color: #ffffff;
+                height: 4px;
+                //border-radius: 10px 10px 0 0 ;
+              }
+              .css-13xfq8m-MuiTabPanel-root {
+               
+                padding: 16px;
+                height: 280px;
+                background-color: #F4EDE0;
+            }
+            .about_es_content{
+                color: #7A7A7A;
+                text-align: left;
+                font-size: 16px;
+                line-height: 25px;
+                letter-spacing: .5px;
+            }
+        }
+        span{
+            font-weight: 600;
+            font-size: 18px;
+            color: #987D5E;
+        }
+    
+    
+    
+    }
+}

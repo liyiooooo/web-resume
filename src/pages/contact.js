@@ -11,6 +11,7 @@ import { FiMail } from "react-icons/fi";
 
 function Contact() {
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     document.querySelector(".navBottom").style.display = "block";
   }, []);
   const ins = () => {
@@ -28,7 +29,7 @@ function Contact() {
       <div className="contact_content animate__animated animate__fadeIn">
         <div className="">
           <div className="four_dots_line ">
-          <img
+            <img
               src={require("../images/dot.png")}
               className="img-fluid"
               alt=""
@@ -36,12 +37,13 @@ function Contact() {
             {/* <div></div> */}
             <h6>Contact Me</h6>
           </div>
-          <div className="con_pic row">
-            <div className="con_10pic col-5">
+          <div className="con_pic">
+            <div className="con_10pic col-lg-6 col-sm-12">
               <div className="pic10_con"></div>
             </div>
-            <div className="con_content col-7">
-              <h2>李翊琳</h2>
+            <div className="con_line"></div>
+            <div className="con_content col-lg-6 col-sm-12">
+              <h2>李翊琳<h5> Ellie Li</h5></h2>
               <h5>Designer | Web Designer | Ｗeb Developer</h5>
 
               <div className="media_link">

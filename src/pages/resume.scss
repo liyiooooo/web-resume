@@ -27,7 +27,7 @@
     
     .re_10pic{
         width: 400px;
-        height: 250px;
+        height: 300px;
         margin-top: 25px;
         
         
@@ -62,7 +62,7 @@
     .accordion{
         --bs-accordion-bg: #efebdd;
         margin-top: 8px;
-       padding: 0 20px;
+        padding: 0 20px;
         min-width: 400px;
         //width: 600px;
         
@@ -140,7 +140,7 @@
 }
 @media screen and (max-width:1000px){
     .re_content{
-        margin: 10px auto;
+        margin: 16px auto;
         padding: 10px;
         
         
@@ -159,12 +159,13 @@
         
     }
     .re_10pic{
-        margin: 20px auto;
+        margin: 20px auto -10px;
         display: flex;
         justify-content: center;
         
     }
     .accordion{
+        //margin-top: 30px;
         margin-bottom: 80px;
         .accordion-item {
             border: none;
@@ -184,66 +185,6 @@
                     display: flex;
                     justify-content: space-around;
                     margin-left:-15px;
-                    h6{
-                        font-size: 8px;
-                    }
-                    span{
-                    font-weight: 700;
-                }
-                }
-                .re_skill_content{
-                    display: flex;
-                    
-                    margin-left:0;
-                    span{
-                        font-weight: 600;
-                   }
-                    .web_dev{
-                        margin-left: 30px;
-                    span{
-                         font-weight: 600;
-                    }
-                    
-                }
-                }
-                
-            }
-        }
-        
-    }
-   
-    .row>* {
-        margin-top: 50px;
-        padding-right: 13px;
-   
-    }
-    
-}
-@media screen and (max-width:769px){
-    
-    .accordion{
-        margin-bottom: 80px;
-        .accordion-item {
-            border: none;
-            .accordion-body{
-                color: #646464;
-                letter-spacing: 1px;
-                .re_edu_content{
-                    h6{
-                        font-size: 12px;
-                        margin: 5px 0;
-                    }
-                    span{
-                    font-weight: 600;
-                }
-                }
-                .re_exp_content{
-                    display: flex;
-                    justify-content: space-around;
-                    margin-left:-15px;
-                    div{
-                        font-size: 10px;
-                    }
                     h6{
                         font-size: 8px;
                     }

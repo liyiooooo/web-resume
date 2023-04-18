@@ -21,7 +21,7 @@ function carousel() {
             <AiFillHome className="up_arrow" />
           </Link>
         </div>
-        
+
         <div></div>
 
         <nav className="navigate" id="navigate">

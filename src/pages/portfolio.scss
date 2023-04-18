@@ -28,14 +28,16 @@
     .row>*{
         padding-left: 0;
         padding-right: 0;
+        
     }
    
     .port_pic{ 
-        margin: 50px;   
-        margin-top: 20px; 
+        margin: 20px ;   
+        margin-top: 50px; 
         display: flex;
         justify-content: space-evenly;
-      
+        
+
 
         .card_port:hover{
             transform: scale(1.1,1.1);
@@ -47,7 +49,7 @@
             border-radius: 10px;
             box-shadow: #AF9981;
             min-width:400px;
-            width: 400px;
+            max-width: 400px;
             height: 350px;
             margin: 10px 30px;
             text-decoration: none;
@@ -85,6 +87,8 @@
           
         }
         
+    
+        
         
         
     }
@@ -109,15 +113,16 @@
         // transition: all .5s ease-out;
 
     }
-    
+}
+
    
  
   
     
   
     
-}
-@media screen and (max-width:769px){
+
+@media screen and (max-width:1000px){
     .port_content{
         margin: 65px auto;
         padding: 10px;
@@ -133,18 +138,20 @@
             }
         }
         .port_pic{ 
+            flex-wrap: wrap;
+            margin: 10px auto 60px;
             .card_port{
-                    margin: 30px 5px;
+                    margin: 30px 30px;
                    
                 }
         }
         
     }
     
-    
-    .row>* {
-        margin-top: 50px;
-        padding-right: 13px;
+    .row{
+        
+        flex-wrap: wrap;
    
     }
+   
 }

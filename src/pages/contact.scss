@@ -1,6 +1,4 @@
 
-
-
 .contact_content{
     // display: flex;
      margin:0 145px ;
@@ -29,8 +27,8 @@
      }
      .con_pic{ 
         
-         margin-top: 20px; 
-        //  margin: 0 30px;
+         margin-top: 40px; 
+         margin: 50px auto;
          display: flex;
          justify-content: center;
          align-items: center;
@@ -39,15 +37,12 @@
          
        
          .con_10pic{
-            width: 400px;
+            width: 300px;
             display: flex;
-            align-items: center;
+            //align-items: center;
             justify-content: center;
-            padding-right: 90px;
-           
-            // margin-top: 25px;
-            // margin-left: px;
             
+            //padding-right: 90px;
             
             .pic10_con{
                 min-width: 300px;
@@ -64,40 +59,134 @@
           
         }
        
-    
-            
-            .con_content{
-                margin: auto 0;
-                margin-left: 0px;
-                padding-left: 90px;
-                letter-spacing: 2px;
-                border-left: 4px solid ;
-                border-image: linear-gradient(180deg, #cea6ff 0%, #fab9b9db 100%) 2 2 2 2;
-                text-align: left;
-                background-image: url(../images/con_bg_sm.png) ;
-                background-repeat: no-repeat;
-                background-position: right bottom;
-                background-size: 200px ;
-                h2{
-                    color: #987D5E;
-                    font-weight: 700;
-                }
-                h4{
-                    color: #878787;
-                }
+        .con_line{
+            height: 250px;
+            margin: 0 90px;
+            border-left: 4px solid ;
+            border-image: linear-gradient(180deg, #cea6ff 0%, #fab9b9db 100%) 2 2 2 2;
+        }
+        
+        .con_content{
+            margin: auto 0;
+            margin-left: 0px;
+            //padding-left: 90px;
+            letter-spacing: 2px;
+            text-align: left;
+            background-image: url(../images/con_bg_sm.png) ;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            background-size: 200px ;
+            h2{
+                color: #987D5E;
+                font-weight: 700;
+                display: flex;
+                //justify-content: center;
                 h5{
-                    color: #878787;
-    
+                 color: #b3a08b;
+                 font-weight: 500;
+                 letter-spacing: 2px;
+                 padding-top: 13px;
+                 padding-left: 5px;
                 }
-                .media_link{
-                    .media_icon{
-                        margin-right: 10px;
-                    }
-                }
-                
+               
             }
+           
+            h5{
+                color: #878787;
+
+            }
+            .media_link{
+                .media_icon{
+                    margin-right: 10px;
+                }
+            }
+            
+        }
         
      }
+}
+
+  
+
+@media screen and (max-width:1000px){
+    .contact_content{
+        margin: 27px auto;
+        padding: 10px;
+        .four_dots_line{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            h6{
+                font-size: 30px;
+            }
+        }
+        .con_line{
+            display: none;
+        }
+        .con_pic{ 
+            margin: 23px auto;
+            flex-wrap: wrap;
+            justify-content: center;
+            .con_10pic{
+                margin: 0 auto;
+                
+                .re_10pic{
+                    margin: 20px auto;
+                    display: flex;
+                    justify-content: center;
+                    
+                    
+                }
+            }
+           .con_content{
+            margin:50px auto ;
+            padding:0 auto ;
+            letter-spacing: 2px;
+            text-align: center;
+            background-image: none;
+            h2{
+                margin-bottom: 25px ;
+                color: #987D5E;
+                font-weight: 700;
+                letter-spacing: 5px;
+                display: flex;
+                justify-content: center;
+                h5{
+                 color: #b3a08b;
+                 font-weight: 500;
+                 letter-spacing: 2px;
+                 padding-top: 10px;
+                }
+               
+            }
+        
+            h5{
+                color: #878787;
+                margin-bottom: 10px;
+
+            }
+            .media_link{
+                .media_icon{
+                    margin-right: 10px;
+                }
+            }
+            
+            
+        }
+    }
+        }
+        
+    .row{
+        
+        flex-wrap: wrap;
+   
+    }
+    
+    
+    
 }
 
     

@@ -9,6 +9,7 @@ import { FaCaretRight } from "react-icons/fa";
 
 function Resume() {
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     document.querySelector(".navBottom").style.display = "block";
   }, []);
   return (

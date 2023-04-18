@@ -29,7 +29,7 @@ function PortfolioWeb() {
 
   return (
     <>
-      <div className="container animate__animated animate__fadeIn">
+      <div className="container">
         <div className="main_text">
           <h2>Web Design</h2>
         </div>

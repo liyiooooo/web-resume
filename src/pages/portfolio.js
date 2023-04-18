@@ -7,6 +7,7 @@ import "animate.css";
 
 function Portfolio() {
   useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     document.querySelector(".navBottom").style.display = "block";
   }, []);
   return (
@@ -28,7 +29,7 @@ function Portfolio() {
             ></img>
             <h6>My Portfolio</h6>
           </div>
-          <div className="port_pic row">
+          <div className="port_pic ">
             <Link to={"/portfolio/portfolioWeb"} className="card_port col">
               <div className="card-body">
                 <img
