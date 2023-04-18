@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/web-resume/static/css/main.3153089c.css",
-    "main.js": "/web-resume/static/js/main.43e55a12.js",
-    "static/js/787.a2e55cfa.chunk.js": "/web-resume/static/js/787.a2e55cfa.chunk.js",
+    "main.js": "/web-resume/static/js/main.fcb520c2.js",
+    "static/js/787.e47844a4.chunk.js": "/web-resume/static/js/787.e47844a4.chunk.js",
     "static/media/cambridge.jpg": "/web-resume/static/media/cambridge.581075c3b62643563fd6.jpg",
     "static/media/invite_2.jpg": "/web-resume/static/media/invite_2.d4100d0fdf0c194b0730.jpg",
     "static/media/resumePic.jpg": "/web-resume/static/media/resumePic.63d564726fce500ce431.jpg",
@@ -37,11 +37,11 @@
     "static/media/grapic_logo.png": "/web-resume/static/media/grapic_logo.065d3a52ee6f6b9734dd.png",
     "index.html": "/web-resume/index.html",
     "main.3153089c.css.map": "/web-resume/static/css/main.3153089c.css.map",
-    "main.43e55a12.js.map": "/web-resume/static/js/main.43e55a12.js.map",
-    "787.a2e55cfa.chunk.js.map": "/web-resume/static/js/787.a2e55cfa.chunk.js.map"
+    "main.fcb520c2.js.map": "/web-resume/static/js/main.fcb520c2.js.map",
+    "787.e47844a4.chunk.js.map": "/web-resume/static/js/787.e47844a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3153089c.css",
-    "static/js/main.43e55a12.js"
+    "static/js/main.fcb520c2.js"
   ]
 }
