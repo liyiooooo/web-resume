@@ -2,9 +2,10 @@ import "./App.css";
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes, Router } from "react-router-dom";
-import Home from "./pages/home";
 
-import Nav from "./layout/nav";
+import Navbar from "./component/navbar";
+
+import Home from "./pages/home";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
@@ -16,7 +17,7 @@ function App() {
     <>
       <main>
         <BrowserRouter>
-          <Nav />
+          <Navbar />
           <Routes>
             <Route>
               <Route path="/resume" element={<Resume />} />

@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 // import Carousel from 'react-bootstrap/Carousel';
 import "../pages/global.scss";
-import "./nav.scss";
+import "./navbar.scss";
 import "animate.css";
 //import Resume from "../pages/resume";
 //import Portfolio from "../pages/portfolio";
