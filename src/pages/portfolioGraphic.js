@@ -34,26 +34,26 @@ function PortfolioGraphic() {
               </div>
             </div>
 
-            <div className="cambridge_part row align-items-end">
-              <div className="col-lg-8 col-md-12 ">
+            <div className="cambridge_part row align-items-end ">
+              <div className="col-lg-8 col-md-12">
                 <img
                   className="cambridge_content img-fluid "
                   src={require("../images/cambridge.jpg")}
-                  alt=""
+                  alt="幼稚園畢業典禮"
                 ></img>
               </div>
-              <div className="col-lg-2 col-md-6 ">
+              <div className="col-lg-2 col-md-6">
                 <img
                   className=" cambridge_content img-fluid "
                   src={require("../images/invite_1.jpg")}
-                  alt=""
+                  alt="幼稚園畢業典禮邀請卡"
                 ></img>
               </div>
-              <div className="col-lg-2 col-md-6 ">
+              <div className="col-lg-2 col-md-6">
                 <img
                   className="cambridge_content img-fluid "
                   src={require("../images/invite_2.jpg")}
-                  alt=""
+                  alt="幼稚園畢業典禮邀請卡"
                 ></img>
               </div>
             </div>
