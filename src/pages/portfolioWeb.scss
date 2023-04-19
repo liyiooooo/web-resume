@@ -303,6 +303,12 @@
 @media screen and (max-width:400px){
     .main_text{
         margin-top: 8vh;
+        margin-bottom: 3vh;
+        margin: 8vh auto 5vh;
+        width: 230px;
+        h2{
+           font-size: 20px; 
+        }
     }
     .text_part{
         margin: 5vh auto 4vh;

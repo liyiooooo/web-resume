@@ -1,7 +1,6 @@
 .main_text_grap{
     margin-top: 12vh;
     display: flex;
-
     justify-content: center;
 
     h2{
@@ -104,18 +103,31 @@
    .main_text_grap{
     margin-top: 8vh;
     margin-bottom: 3vh;
+    margin: 8vh auto 5vh;
+    //padding: 0 10px;
+    width: 230px;
+    h2{
+       font-size: 20px; 
+    }
+    
+
    }
    .text_part_grap{
     margin: 0 auto ;
     margin-bottom: 5vh;
     justify-content: center;
     div{
-        // margin: 20px 0; 
+        
+        text-align: center;
         .title_box{
+            margin: auto;
             justify-content: center;
             padding: 3px 15px;
             margin-top: -35px;
             margin-bottom:15px;
+            width: 300px;
+            font-size: 20px;
+          
             .three_dots{
                 display: none;
             }

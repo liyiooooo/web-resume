@@ -165,7 +165,13 @@
             h6{
                 font-size: 26px;
             }
-        }       
+        }  
+        .port_pic{ 
+            .card_port:hover{
+                transform: scale(.8,.8);
+        
+            }     
+         }
     }
     
 }
