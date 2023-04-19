@@ -43,7 +43,9 @@ function Contact() {
             </div>
             <div className="con_line"></div>
             <div className="con_content col-lg-6 col-sm-12">
-              <h2>李翊琳<h5> Ellie Li</h5></h2>
+              <h2>
+                李翊琳<h5> Ellie Li</h5>
+              </h2>
               <h5>Designer | Web Designer | Ｗeb Developer</h5>
 
               <div className="media_link">
@@ -69,10 +71,12 @@ function Contact() {
               <br></br>
               <div>
                 <h5>
-                  <BsTelephoneFill color="#878787" /> : 0912903422
+                  <BsTelephoneFill color="#878787" />
+                  <a href="tel:+886-912903422">: 0912903422</a>
                 </h5>
                 <h5>
-                  <FiMail color="#878787" /> : usa831119@gmail.com
+                  <FiMail color="#878787" /> :{" "}
+                  <a href="mailto:usa831119@gmail.com">usa831119@gmail.com</a>
                 </h5>
 
                 {/* <h5><BsTelephoneFill color="#AE82D0"/> : 0912903422</h5> */}
