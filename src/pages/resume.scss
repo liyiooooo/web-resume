@@ -217,7 +217,7 @@
                         margin-left:3px;
                         font-size: 20px;
                         div{
-                            margin: 15px ;
+                           
                              h6{
                             font-size: 14px;
                             letter-spacing: .5px;
@@ -271,7 +271,7 @@
                     .re_edu_content{
                         font-size: 18px;
                         div{
-                            margin: 15px ;
+                            margin: auto 7px;
                             h6{
                                 font-size: 14px;
                                 margin: 5px 0;
@@ -282,15 +282,15 @@
                         }
                         
                     }
-                    //.re_exp_content{
+                    .re_exp_content{
                         
                         flex-wrap: wrap;
                         justify-content: start;
                         margin-left:3px;
-                        font-size: 20px;
+                        font-size: 18px;
                         div{
                            
-                            margin: 15px ;
+                            margin: 10px ;
                             // flex-wrap: wrap;
                              h6{
                             font-size: 14px;
@@ -301,7 +301,7 @@
                             }
                         }
                        
-                    //}
+                    }
                     .re_skill_content{
                         display: block;
                         flex-wrap: wrap;
