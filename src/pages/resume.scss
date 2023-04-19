@@ -206,6 +206,34 @@
     }
     
 }
+@media screen and (max-width:768px){
+    .re_content{
+        .accordion{
+            .accordion-item {
+                .accordion-body{
+                    .re_exp_content{
+                        flex-wrap: wrap;
+                        justify-content: start;
+                        margin-left:3px;
+                        font-size: 20px;
+                        div{
+                            margin: 15px ;
+                             h6{
+                            font-size: 14px;
+                            letter-spacing: .5px;
+                            }
+                            span{
+                            font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+    
+}
 @media screen and (max-width:400px){
     .re_content{
         .four_dots_line{
