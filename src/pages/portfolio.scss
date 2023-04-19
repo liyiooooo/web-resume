@@ -48,7 +48,7 @@
             //border: solid px rgb(255, 255, 255);
             border-radius: 10px;
             box-shadow: #AF9981;
-            min-width:330px;
+            min-width:310px;
             max-width: 400px;
             height: 350px;
             margin: 10px 30px;
@@ -97,7 +97,8 @@
         
     // }
     .em_pic{
-        width:350px;
+        width: 350px;
+        min-width:330px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -168,7 +169,7 @@
         }  
         .port_pic{ 
             .card_port:hover{
-                transform: scale(.8,.8);
+                transform: scale(1.1,1.1);
         
             }     
          }
