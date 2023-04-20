@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 import './contact.scss'
 import './global.scss'
 import 'animate.css'
@@ -49,23 +49,23 @@ function Contact() {
               <h5>Designer | Web Designer | Ｗeb Developer</h5>
 
               <div className="media_link">
-                <a href="" onClick={face}>
+                <Link onClick={face}>
                   <FaFacebookSquare
                     size={24}
                     color="#878787"
                     className="media_icon"
                   />
-                </a>
-                <a href="" onClick={ins}>
+                </Link>
+                <Link onClick={ins}>
                   <ImInstagram
                     size={20}
                     color="#878787"
                     className="media_icon"
                   />
-                </a>
-                <a href="" onClick={git}>
+                </Link>
+                <Link onClick={git}>
                   <ImGithub size={22} color="#878787" className="media_icon" />
-                </a>
+                </Link>
               </div>
               <br></br>
               <br></br>
