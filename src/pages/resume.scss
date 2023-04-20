@@ -6,9 +6,9 @@
         display: flex;
         margin-top: -16px;
         img{
-            width: 30px;
-            height: 30px;
-            margin: 20px;
+            width: 23px;
+            height: 23px;
+            margin: 23px 15px 20px 20px ;
             max-width: 100%
             // background: url(../images/dot.png) no-repeat 100%;
         }
@@ -16,7 +16,7 @@
             font-size: 35px;
             font-weight: 800;
             letter-spacing: 1.2px;
-            margin-top:12px;
+            margin-top:14px;
             color: #AF9981;
 
 
@@ -234,7 +234,7 @@
    
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .re_content{
         .four_dots_line{
             display: flex;

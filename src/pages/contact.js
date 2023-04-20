@@ -1,28 +1,28 @@
-import React from "react";
+import React from 'react'
 // import { Link } from "react-router-dom";
-import "./contact.scss";
-import "./global.scss";
-import "animate.css";
-import { useEffect } from "react";
-import { ImGithub, ImInstagram } from "react-icons/im";
-import { FaFacebookSquare } from "react-icons/fa";
-import { BsTelephoneFill } from "react-icons/bs";
-import { FiMail } from "react-icons/fi";
+import './contact.scss'
+import './global.scss'
+import 'animate.css'
+import { useEffect } from 'react'
+import { ImGithub, ImInstagram } from 'react-icons/im'
+import { FaFacebookSquare } from 'react-icons/fa'
+import { BsTelephoneFill } from 'react-icons/bs'
+import { FiMail } from 'react-icons/fi'
 
 function Contact() {
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    document.querySelector(".navBottom").style.display = "block";
-  }, []);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    document.querySelector('.navBottom').style.display = 'block'
+  }, [])
   const ins = () => {
-    window.open("https://www.instagram.com/liyi00000/");
-  };
+    window.open('https://www.instagram.com/liyi00000/')
+  }
   const git = () => {
-    window.open("https://github.com/liyiooooo/web-resume");
-  };
+    window.open('https://github.com/liyiooooo/web-resume')
+  }
   const face = () => {
-    window.open("https://www.facebook.com/profile.php?id=100002722837916");
-  };
+    window.open('https://www.facebook.com/profile.php?id=100002722837916')
+  }
 
   return (
     <>
@@ -30,7 +30,7 @@ function Contact() {
         <div className="">
           <div className="four_dots_line ">
             <img
-              src={require("../images/dot.png")}
+              src={require('../images/dot.png')}
               className="img-fluid"
               alt=""
             ></img>
@@ -75,7 +75,7 @@ function Contact() {
                   <a href="tel:+886-912903422">: 0912903422</a>
                 </h5>
                 <h5>
-                  <FiMail color="#878787" /> :{" "}
+                  <FiMail color="#878787" /> :{' '}
                   <a href="mailto:usa831119@gmail.com">usa831119@gmail.com</a>
                 </h5>
 
@@ -95,6 +95,6 @@ function Contact() {
 
       {/* </div> */}
     </>
-  );
+  )
 }
-export default Contact;
+export default Contact
