@@ -1,5 +1,4 @@
 
-
 .home_bg{
     
 
@@ -10,6 +9,12 @@
         bottom: 0;
         left:  0;
 
+    }
+    .home_bg_r{
+        max-width: 60%;
+        position: fixed;
+        top: 0;
+        right: 0;
     }
     .animate_box{
        
@@ -37,10 +42,6 @@
         transform: scale(1,1);
         transition: all .5s ease-out;
     
-
-
-        
-        
         .pic10{
             width: 250px;
             height: 250px;
@@ -53,17 +54,12 @@
            
         }
         
-        // .pic10:hover{
-        //     transform: scale(1.1,1.1);
-        // }
         .home_finger{
             width: 33px;
             position: absolute;
             top: 205px;
             left: 205px;
             transform:rotate(-30deg);
-            
-
         }
         
         @keyframes Pfli {
@@ -92,17 +88,11 @@
     
     
     
-    .home_bg_r{
-        max-width: 60%;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
+    
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .home_bg{
         .animate_box{
-       
             position: absolute ;
             top: 0;
             left: 0;
@@ -110,40 +100,34 @@
             right: 0;
         }
         .home_10pic{
-        width: 200px;
-        height: 200px;
-        margin: auto;
-        position: absolute ;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;  
-        .pic10{
             width: 200px;
             height: 200px;
-            background-position: 235px 225px ;
-           
+            margin: auto;
+            position: absolute ;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;  
+            .pic10{
+                width: 200px;
+                height: 200px;
+                background-position: 235px 225px ;
+            }
+            .home_finger{
+                width: 25px;
+                position: absolute;
+                top: 170px;
+                left: 150px;
+            }
+            .home_click{
+                width: 100px;
+                text-align: left;
+                font-size: 16px;
+                position: absolute;
+                top: 185px;
+                left: 185px;
+            }
         }
-        
-        .home_finger{
-            width: 25px;
-            position: absolute;
-            top: 170px;
-            left: 150px;
-        }
-        .home_click{
-            width: 100px;
-            text-align: left;
-            font-size: 16px;
-            position: absolute;
-            top: 185px;
-            left: 185px;
-           
-            
-        }
-       
-
-    }
     }
     
 }

@@ -1,25 +1,25 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import "./home.scss";
-import "./global.scss";
-import "animate.css";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
+import './home.scss'
+import './global.scss'
+import 'animate.css'
 
 function Home() {
   useEffect(() => {
-    document.querySelector(".navBottom").style.display = "none";
-  }, []);
+    document.querySelector('.navBottom').style.display = 'none'
+  }, [])
   return (
     <>
       <div className="home_bg">
         <img
           className="home_bg_l animate__animated animate__fadeInBottomLeft"
-          src={require("../images/bg_4.png")}
+          src={require('../images/bg_4.png')}
           alt=""
         ></img>
         <img
           className="home_bg_r animate__animated animate__fadeInTopRight"
-          src={require("../images/bg_3.png")}
+          src={require('../images/bg_3.png')}
           alt=""
         ></img>
         <div className="animate_box animate__animated animate__bounceInDown">
@@ -27,7 +27,7 @@ function Home() {
             <div className="pic10"></div>
             <img
               className="home_finger"
-              src={require("../images/finger.png")}
+              src={require('../images/finger.png')}
               alt=""
             ></img>
             <p className="home_click">click me</p>
@@ -35,6 +35,6 @@ function Home() {
         </div>
       </div>
     </>
-  );
+  )
 }
-export default Home;
+export default Home
