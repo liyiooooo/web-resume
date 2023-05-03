@@ -136,10 +136,10 @@ function Resume() {
                     HTML
                     <br />
                     <FaCaretRight size={13} />
-                    css
+                    CSS
                     <br />
                     <FaCaretRight size={13} />
-                    Javascript
+                    JavaScript
                     <br />
                   </div>
                   <div className="web_dev">
@@ -148,7 +148,7 @@ function Resume() {
                     React
                     <br />
                     <FaCaretRight size={13} />
-                    MYSQL
+                    MySQL
                     <br />
                     <FaCaretRight size={13} />
                     Node.js
