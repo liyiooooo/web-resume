@@ -1,24 +1,24 @@
-import React from "react";
+import React from 'react'
 // import { Link } from "react-router-dom";
-import { useEffect } from "react";
-import "./resume.scss";
-import "./global.scss";
-import "animate.css";
-import { Accordion } from "react-bootstrap";
-import { FaCaretRight } from "react-icons/fa";
+import { useEffect } from 'react'
+import './resume.scss'
+import './global.scss'
+import 'animate.css'
+import { Accordion } from 'react-bootstrap'
+import { FaCaretRight } from 'react-icons/fa'
 
 function Resume() {
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    document.querySelector(".navBottom").style.display = "block";
-  }, []);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+    document.querySelector('.navBottom').style.display = 'block'
+  }, [])
   return (
     <>
       <div className="re_content row animate__animated animate__fadeIn">
         <div className="col-lg-4 col-md-12">
           <div className="four_dots_line ">
             <img
-              src={require("../images/dot.png")}
+              src={require('../images/dot.png')}
               className="img-fluid"
               alt=""
             ></img>
@@ -30,7 +30,7 @@ function Resume() {
           </div>
         </div>
         <div className="col-lg-8 col-md-12">
-          <Accordion defaultActiveKey={["0"]} flush>
+          <Accordion defaultActiveKey={['0']} flush>
             <Accordion.Item eventKey="0">
               <Accordion.Header>About Me</Accordion.Header>
               <Accordion.Body>
@@ -161,6 +161,6 @@ function Resume() {
         </div>
       </div>
     </>
-  );
+  )
 }
-export default Resume;
+export default Resume
